@@ -1,0 +1,136 @@
+index.html <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Creatives PH</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:#fff;
+}
+header{
+    background:#000;
+    padding:20px;
+    text-align:center;
+    border-bottom:3px solid #ff6600;
+}
+header h1{
+    color:#ff6600;
+    font-size:40px;
+}
+nav{
+    margin-top:15px;
+}
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+.hero{
+    padding:100px 20px;
+    text-align:center;
+    background:linear-gradient(to right,#111,#222);
+}
+.hero h2{
+    font-size:45px;
+    color:#ff6600;
+}
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    background:#ff6600;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+}
+.section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.card{
+    background:#1d1d1d;
+    padding:20px;
+    border-radius:10px;
+}
+footer{
+    background:#000;
+    padding:20px;
+    text-align:center;
+    border-top:3px solid #ff6600;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Urban Creatives PH</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Rides</a>
+<a href="#">Lifestyle</a>
+<a href="#">Quotes</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+<h2>Rides • Lifestyle • Inspiration</h2>
+<p>Welcome to Urban Creatives PH</p>
+<a class="btn" href="#">Explore</a>
+</section>
+
+<section class="section">
+
+<h2 style="text-align:center;margin-bottom:30px;">Latest Content</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🏍️ Rides</h3>
+<p>Ride stories, tips and adventures.</p>
+</div>
+
+<div class="card">
+<h3>🌿 Lifestyle</h3>
+<p>Daily life, travel and inspiration.</p>
+</div>
+
+<div class="card">
+<h3>💬 Quotes</h3>
+<p>Motivational quotes every day.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Urban Creatives PH
+</footer>
+
+</body>
+</html>
